@@ -1,8 +1,0 @@
-    Send, {Esc}
-    Sleep, 50  ; Wait 1/20 second
-    MouseMove, 960, 725, 1
-    Sleep, 5
-    Click, left
-    MouseMove, 855, 565, 1
-    Sleep, 5
-    Click, left
