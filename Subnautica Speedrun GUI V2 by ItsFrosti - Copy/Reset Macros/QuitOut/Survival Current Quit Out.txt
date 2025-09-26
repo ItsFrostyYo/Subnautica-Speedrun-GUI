@@ -1,8 +1,0 @@
-Send, {Esc}
-Sleep, 50
-MouseMove, 960, 728, 1
-Sleep, 5
-Click, left
-MouseMove, 852, 566, 1
-Sleep, 5
-Click, left

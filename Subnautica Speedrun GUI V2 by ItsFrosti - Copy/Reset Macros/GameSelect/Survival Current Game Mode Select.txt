@@ -1,7 +1,0 @@
-MouseMove, 600, 730, 1
-Click, left
-Sleep, 5
-MouseMove, 1170, 555, 1
-Click, left
-Sleep, 5
-Click, left
