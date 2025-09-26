@@ -1,0 +1,93 @@
+Subnautica Speedrun GUI by ItsFrosti
+==================
+
+This AutoHotkey script provides two main tools:
+
+1. **Version Switcher** – Quickly switch and launch between
+   the **2018** and **Current** versions of Subnautica.
+2. **Reset Macros** – Run automated “reset” sequences that quit,
+   wait, and reload the game with specific settings.
+
+------------------------------------------------------------
+REQUIREMENTS
+------------------------------------------------------------
+• Windows with [AutoHotkey v1.x](https://www.autohotkey.com/) installed.  
+• Steam installation of Subnautica in the default location:
+  C:\Program Files (x86)\Steam\steamapps\common
+
+If your game is installed elsewhere, open the script in a text editor
+and change the line:
+
+    BasePath := "C:\Program Files (x86)\Steam\steamapps\common"
+
+to match your own Steam library path.
+
+------------------------------------------------------------
+USAGE
+------------------------------------------------------------
+
+► **Starting the GUI**
+Double–click the .ahk script or the .exe file.
+A GUI window titled **"Subnautica Speedrun GUI V2 by ItsFrosti"** will open.
+
+-------------------------------------
+LEFT SIDE – Game Version
+-------------------------------------
+• Select either **Subnautica 2018** or **Subnautica Current**.
+• Click **Launch** to close any running game and start the chosen version.
+• Click **Restart Active Version** to quit and relaunch whichever version
+  is currently active without switching.
+• You can assign a **hotkey** to restart the active version:
+    1. Enter a key combination (for example `F2`) in the Hotkey box.
+    2. Click **Set Hotkey**.
+    3. Pressing that key will instantly quit and relaunch the active version.
+
+⚠️ **Note:**  
+If Version Switcher does not work when the game is currently open,
+please Quit Out of the Game yourself and wait until its fully closed.
+
+-------------------------------------
+RIGHT SIDE – Reset Macros
+-------------------------------------
+• Choose a **Game Mode** (Survival / Hardcore / Creative).
+• Choose a **Version** (Current / 2018).
+• Choose a **Load Out Delay** in seconds (1–5 in 0.5 sec steps).
+• Assign a hotkey (for example `F3`) to run the macro:
+    1. Enter a key in the Hotkey box.
+    2. Click **Set Macro Hotkey**.
+    3. Pressing that key will run the selected reset macro.
+
+The macro expects text files in these folders (relative to the script):
+
+    Reset Macros\QuitOut\
+    Reset Macros\LoadTime\
+    Reset Macros\GameSelect\
+
+Each folder should contain the appropriate `.txt` files that
+make up the macro for quitting, waiting, and selecting a game mode.
+
+The script will:
+1. Read those three text files,
+2. Combine them into a temporary AHK script,
+3. Execute that script,
+4. Delete the temporary file after it finishes.
+
+If any file is missing, you will see a message telling you which one.
+
+-------------------------------------
+EXITING
+-------------------------------------
+• Click **Close GUI** at the bottom of the GUI window, or
+• Close the window using the **X** button in the title bar.
+
+This stops the GUI and removes any temporary files.
+
+------------------------------------------------------------
+TROUBLESHOOTING
+------------------------------------------------------------
+• If the GUI does not appear, make sure AutoHotkey is installed and
+  you are running the script with the correct version (v1.x).
+• If a hotkey doesn’t work, re-set it in the GUI or make sure no other
+  application is capturing that key.
+• For path or file errors, check that your Subnautica installation
+  and the Reset Macro text files exist in the expected locations.

@@ -1,0 +1,20 @@
+    MouseMove, 580, 800, 1
+    Click, left
+    Sleep, 15
+    MouseMove, 1386, 673, 1
+    Sleep, 5
+    Click, left
+    Sleep, 250
+    MouseMove, 1130, 673, 1
+    Sleep, 250
+    MouseMove, 1060, 673, 1
+    Sleep, 250
+    Click, left
+    MouseMove, 1180, 555, 1
+    Sleep, 5
+    Click, left
+    MouseMove, 1180, 780, 1
+    Sleep, 5
+    Click, left
+    Sleep, 5
+    Click, left
