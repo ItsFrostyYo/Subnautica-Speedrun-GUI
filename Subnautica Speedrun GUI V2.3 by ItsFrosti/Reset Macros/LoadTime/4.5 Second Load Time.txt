@@ -1,1 +1,0 @@
-Sleep, 4500 ; <- 4.5 seconds

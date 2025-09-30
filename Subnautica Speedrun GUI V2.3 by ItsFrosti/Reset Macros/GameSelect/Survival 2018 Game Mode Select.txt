@@ -1,7 +1,0 @@
-    MouseMove, 580, 800, 1
-    Click, left
-    Sleep, 5
-    MouseMove, 1170, 555, 1
-    Click, left
-    Sleep, 5
-    Click, left
