@@ -28,7 +28,9 @@ allowing control through a modern HTML interface.
 ▶ FEATURES
 
 [1] Version Launcher
+
 ────────────────────
+
 Allows switching between:
 - **2018 Version** (Speedrunner’s Patch)
 - **Current Version** (2023/2025 Patch)
@@ -44,12 +46,14 @@ Allows switching between:
 
 
 [2] Game Restart
+
 ────────────────────
 - **Restart Game** button closes and relaunches the active Subnautica version.
 - **Set Hotkey** allows assigning any key to instantly restart the game.
 
 
 [3] Toggle RNG Mod
+
 ────────────────────
 - Toggles the **BetterRNG Mod by Sprinter_31** on or off.
 - Requires the mod to already be installed.  
@@ -57,6 +61,7 @@ Allows switching between:
 
 
 [4] Reset Macro
+
 ────────────────────
 
 Automates resetting a speedrun with a single key press.
@@ -90,6 +95,7 @@ After setup:
 
 
 [5] Hardcore Save Deleter
+
 ────────────────────
 - **Toggle ON/OFF**
 
@@ -102,6 +108,7 @@ When **OFF:**
 
 
 [6] Speedrun Timer
+
 ────────────────────
 - **Toggle ON/OFF**
   - When ON → Timer overlay appears (top-right by default)
@@ -115,6 +122,7 @@ When **OFF:**
   - All this Saves to a .ini next to the .exe/ahk
 
 [7] Save File Installer
+
 ────────────────────
 - Opens GUI to configure and install practice save files.
 - Reads the `Save Files` folder in the GUI directory.
