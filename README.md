@@ -58,6 +58,7 @@ Allows switching between:
 
 [4] Reset Macro
 ────────────────────
+
 Automates resetting a speedrun with a single key press.
 
 **Setup Process (7 Steps)**
