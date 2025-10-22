@@ -1,4 +1,4 @@
-──────────────────────────────────────────────────────────────
+───────────────────────────
       Subnautica Speedrun GUI — (Release V1.5)
                      By ItsFrosti
 
@@ -14,9 +14,9 @@ This make it half the size allowing for a liter and possibly faster experience.
 The app combines an AutoHotkey backend with a custom NW.js-powered GUI,
 allowing control through a modern HTML interface.
 
-================================================================
+===============================
 ▶ HOW TO USE
-================================================================
+===============================
 
 1. Launch **"SSGUI-Normal.exe"**
    - This runs the AutoHotkey backend and automatically launches the GUI.
@@ -27,9 +27,9 @@ allowing control through a modern HTML interface.
 3. The app communicates internally with the GUI using a text document
    (`command.txt`), which is created automatically in the GUI folder.
 
-================================================================
+======================================
 ▶ FEATURES
-================================================================
+=======================================
 
 [1] Version Launcher
 ────────────────────
@@ -124,9 +124,9 @@ When **OFF:**
 - Select a category and save file from the dropdown → press **Install**.
 - Installs into your currently active game version.
 
-================================================================
+===================================
 ▶ NOTES & LIMITATIONS
-================================================================
+=================================
 
 - If **"SSGUI-Normal.exe"** fails to launch, install **AutoHotkey v1**.
 - A 6-second delay is built into Restart and Version Switching:
@@ -141,4 +141,4 @@ When **OFF:**
 - GUI ↔ AHK communication depends on `command.txt`.
   - Do not delete or interfere with this file.
 
-──────────────────────────────────────────────────────────────
+─────────────────────────────────
