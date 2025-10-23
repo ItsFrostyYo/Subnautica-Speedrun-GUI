@@ -25,6 +25,8 @@ allowing control through a modern HTML interface.
 3. The app communicates internally with the GUI using a text document
    (`command.txt`), which is created automatically in the GUI folder.
 
+For the Advanced Versions please read the Specific ReadMe in that comes with each.
+
 ▶ FEATURES
 
 [1] Version Launcher
