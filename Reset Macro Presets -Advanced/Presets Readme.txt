@@ -1,0 +1,1 @@
+It is Entirely Possible that these Reset Macro Presets DO NOT Work for YOU, Its Always Best to Run Setup Macro and Record your OWN Macro that Will be Saved, Possibly Create a Backup and Save it in the Reset Macro Presets Folder.
